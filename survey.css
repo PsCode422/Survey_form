@@ -21,7 +21,7 @@ body img {
 #overlay-color {
     background:  linear-gradient( 115deg, rgba(58, 58, 158, 1.0), rgba(136, 136, 206, .9));
     position: fixed;
-    height: 800px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     opacity: 0.5;
@@ -81,4 +81,18 @@ body img {
 }
 #submit:hover {
  cursor: pointer;   
+}
+
+@media (max-width: 850px) {
+    body {
+    width: 100%;
+    height: auto;
+ }
+}
+
+@media (min-width: 320px) {
+    body {
+    width: 100%;
+    height: auto;
+ }
 }
